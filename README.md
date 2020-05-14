@@ -186,10 +186,10 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
  * 	Barna Zajzon, Renato C. Duarte, Abigail Morrison <br />
 "Transferring State Representations in Hierarchical Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489135)]
-  * 	Catherine D. Schuman, Grant Bruer, Aaron R. Young, Mark E. Dean, James S. Plank <br />
+  * Catherine D. Schuman, Grant Bruer, Aaron R. Young, Mark E. Dean, James S. Plank <br />
 "Understanding Selection And Diversity For Evolution Of Spiking Recurrent Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489149)]
-   * 	Yu Miao, Huajin Tang, Gang Pan<br />
+  * Yu Miao, Huajin Tang, Gang Pan<br />
 "A Supervised Multi-Spike Learning Algorithm for Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489175)]
  * 	Timoleon Moraitis, Abu Sebastian, Evangelos Eleftheriou<br />
