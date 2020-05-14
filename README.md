@@ -160,18 +160,27 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
 "Spiking Neural Networks for Cancer Gene Expression Time Series Modelling and Analysis".
  [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-04167-0_57)]
   ### IJCNN2018
- * Yanli Yao, Qiang Yu, Longbiao Wang, Jianwu Dang <br />
-"A Spiking Neural Network with Distributed Keypoint Encoding for Robust Sound Recognition".
- [[paper](https://ieeexplore.ieee.org/document/8852166)]
-  * Catherine D. Schuman, James S. Plank, Grant Bruer, Jeremy Anantharaj <br />
-"Non-Traditional Input Encoding Schemes for Spiking Neuromorphic Systems".
- [[paper](https://ieeexplore.ieee.org/document/8852139/)]
- * Maximilian P. R. Löhr, Daniel Schmid, Heiko Neumann <br />
-"Motion Integration and Disambiguation by Spiking V1-MT-MSTl Feedforward-Feedback Interaction".
- [[paper](https://ieeexplore.ieee.org/document/8852029)]
- * Pierre Falez, Pierre Tirilly, Ioan Marius Bilasco, Philippe Devienne, Pierre Boulet <br />
-"Multi-layered Spiking Neural Network with Target Timestamp Threshold Adaptation and STDP".
- [[paper](https://ieeexplore.ieee.org/document/8852346)]
+ * 	Jiaxing Liu, Guoping Zhao <br />
+"A bio-inspired SOSNN model for object recognition".
+ [[paper](https://ieeexplore.ieee.org/document/8489076/)]
+  * Amirhossein Tavanaei, Zachary Kirby, Anthony S. Maida <br />
+"Training Spiking ConvNets by STDP and Gradient Descent".
+ [[paper](https://ieeexplore.ieee.org/document/8489104)]
+ * Renato C. Duarte, Marvin Uhlmann, Dick den van Broek, Hartmut Fitz, Karl Magnus Petersson, Abigail Morrison <br />
+"Encoding symbolic sequences with spiking neural reservoirs".
+ [[paper](https://ieeexplore.ieee.org/document/8489114)]
+ * 	Barna Zajzon, Renato C. Duarte, Abigail Morrison <br />
+"Transferring State Representations in Hierarchical Spiking Neural Networks".
+ [[paper](https://ieeexplore.ieee.org/document/8489135)]
+  * 	Catherine D. Schuman, Grant Bruer, Aaron R. Young, Mark E. Dean, James S. Plank <br />
+"Understanding Selection And Diversity For Evolution Of Spiking Recurrent Neural Networks".
+ [[paper](https://ieeexplore.ieee.org/document/8489149)]
+   * 	Yu Miao, Huajin Tang, Gang Pan<br />
+"A Supervised Multi-Spike Learning Algorithm for Spiking Neural Networks".
+ [[paper](https://ieeexplore.ieee.org/document/8489175)]
+ * 	Timoleon Moraitis, Abu Sebastian, Evangelos Eleftheriou<br />
+"Spiking Neural Networks Enable Two-Dimensional Neurons and Unsupervised Multi-Timescale Learning".
+ [[paper](https://ieeexplore.ieee.org/document/8489218)]
 ### IJCAI2017
 * Antonio Jimeno-Yepes, Jianbin Tang, Benjamin Scott Mashford <br />
 "Improving Classification Accuracy of Feedforward Neural Networks for Spiking Neuromorphic Chips".
