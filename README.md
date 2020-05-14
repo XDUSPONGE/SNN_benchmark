@@ -225,10 +225,10 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
  * 	Johannes C. Thiele, Olivier Bichler, Antoine Dupret<br />
 "A Timescale Invariant STDP-Based Spiking Deep Network for Unsupervised Online Feature Extraction from Event-Based Sensor Data".
  [[paper](https://ieeexplore.ieee.org/document/8489666)]
-  * 	Hananel Hazan, Daniel J. Saunders, Darpan T. Sanghavi, Hava T. Siegelmann, Robert Kozma<br />
+  * Hananel Hazan, Daniel J. Saunders, Darpan T. Sanghavi, Hava T. Siegelmann, Robert Kozma<br />
 "Unsupervised Learning with Self-Organizing Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489673)]
-   * 	Daniel J. Saunders, Hava T. Siegelmann, Robert Kozma, Miklós Ruszinkó<br />
+  * Daniel J. Saunders, Hava T. Siegelmann, Robert Kozma, Miklós Ruszinkó<br />
 "STDP Learning of Image Patches with Convolutional Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489684)]
 ### IJCAI2017
