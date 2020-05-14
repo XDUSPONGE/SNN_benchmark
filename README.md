@@ -5,8 +5,9 @@
 ## Papers
 ### AAAI2020
 
-* Effective AER Object Classification Using Segmented Probability-Maximization
-Learning in Spiking Neural Networks Qianhui Liu,1 Haibo Ruan,1 Dong Xing,1 Huajin Tang,1,2 Gang Pan.
+* Qianhui Liu, Haibo Ruan, Dong Xing, Huajin Tang, Gang Pan <br />
+Effective AER Object Classification Using Segmented Probability-Maximization
+Learning in Spiking Neural Networks .
   [[paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuQ.6583.pdf]
 
 * **Spiking-YOLO:** Spiking Neural Network for Energy-Efficient Object Detection.
