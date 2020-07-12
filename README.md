@@ -1,15 +1,18 @@
 # Spiking Neural Network Paper List
+## Framework
+* BindsNet <br />
 ## Papers
 ### ICLR2020
 * Johannes C. Thiele, Olivier Bichler, Antoine Dupret <br />
 "SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes".
- [[paper](https://openreview.net/forum?id=rkxs0yHFPH)]
+ [[paper](https://arxiv.org/pdf/1906.00851.pdf)]
 * Jordan Guerguiev, Konrad P. Körding, Blake A. Richards <br />
 "Spike-based causal inference for weight alignment".
  [[paper](https://openreview.net/forum?id=rkxs0yHFPH)]
  * Nitin Rathi, Gopalakrishnan Srinivasan, Priyadarshini Panda, Kaushik Roy <br />
 "Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation".
  [[paper](https://openreview.net/forum?id=B1xSperKvH)]
+ [[code](https://github.com/nitin-rathi/hybrid-snn-conversion.git)]
 ### AAAI2020
 * Qianhui Liu, Haibo Ruan, Dong Xing, Huajin Tang, Gang Pan <br />
 "Effective AER Object Classification Using Segmented Probability-Maximization
