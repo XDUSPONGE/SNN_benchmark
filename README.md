@@ -1,6 +1,10 @@
 # Spiking Neural Network Paper List
-## Framework
-* BindsNet <br />
+## code
+* Technical report: supervised training of convolutional spiking neural networks with PyTorch <br />
+[[code](https://github.com/romainzimmer/s2net)]
+* BindsNet[[code](https://github.com/BindsNET/bindsnet)] <br />
+* SpykeTorch[[code](https://github.com/miladmozafari/SpykeTorch)] <br />
+* Pure python Implementation SNN [[code](https://github.com/Shikhargupta/Spiking-Neural-Network)] <br />
 ## Papers
 ### ICLR2020
 * Johannes C. Thiele, Olivier Bichler, Antoine Dupret <br />
@@ -9,6 +13,7 @@
 * Jordan Guerguiev, Konrad P. Körding, Blake A. Richards <br />
 "Spike-based causal inference for weight alignment".
  [[paper](https://openreview.net/forum?id=rkxs0yHFPH)]
+ [[code](https://anonfile.com/51V8Ge66n3/Code_zip)]
  * Nitin Rathi, Gopalakrishnan Srinivasan, Priyadarshini Panda, Kaushik Roy <br />
 "Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation".
  [[paper](https://openreview.net/forum?id=B1xSperKvH)]
@@ -21,6 +26,11 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
 * Seijoon Kim, Seongsik Park, Byunggook Na, Sungroh Yoon <br />
 **Spiking-YOLO:** "Spiking Neural Network for Energy-Efficient Object Detection"
  [[paper](https://arxiv.org/pdf/1903.06530.pdf)]
+* Zuozhu Liu, Thiparat Chotibut, Christopher Hillar, Shaowei Lin <br />
+"Biologically Plausible Sequence Learning with Spiking Neural Networks"
+ [[paper](https://arxiv.org/abs/1911.10943)]
+ [[code](https://github.com/owen94/MPNets)]
+ 
 ### NIPS2019
 * Wenrui Zhang, Peng Li <br />
 "Spike-Train Level Backpropagation for Training Deep Recurrent Spiking Neural Networks".
@@ -32,6 +42,8 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
 * Pengjie Gu, Rong Xiao, Gang Pan, Huajin Tang <br />
 **STCA:** "STCA: Spatio-Temporal Credit Assignment with Delayed Feedback in Deep Spiking Neural Networks".
  [[paper](https://www.ijcai.org/proceedings/2019/0189.pdf)]
+ [[code](https://github.com/Squirtle-gpj/STCA-DSNN)]
+ 
 * Rong Xiao, Qiang Yu, Rui Yan, Huajin Tang <br />
 "Fast and Accurate Classification with a Multi-Spike Learning Algorithm for Spiking Neurons".
  [[paper](https://www.ijcai.org/Proceedings/2019/0200.pdf)]
@@ -99,6 +111,7 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
 * Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
 "Direct Training for Spiking Neural Networks: Faster, Larger, Better".
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3929)]
+ [[code]( https://github.com/yjwu17/BP-for-SpikingNN)]
 * Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
 **TDSNN** "Direct Training for Spiking Neural Networks: Faster, Larger, Better".
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3931)]
@@ -117,6 +130,10 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
 * 	Aditya Gilra, Wulfram Gerstner <br />
 "Non-Linear Motor Control by Local Learning in Spiking Neural Networks".
  [[paper](http://proceedings.mlr.press/v80/gilra18a.html)]
+ * 	Thomas Miconi, Jeff Clune, Kenneth O. Stanley <br />
+"Differentiable plasticity: training plastic neural networks with backpropagation".
+ [[paper](https://arxiv.org/abs/1804.02464)]
+  [[code]( https://github.com/uber-research/differentiable-plasticity)]
  ### NIPS2018
  * 	Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert A. Legenstein, Wolfgang Maass <br />
 "Long short-term memory and Learning-to-learn in networks of spiking neurons".
@@ -124,6 +141,7 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
  * Sumit Bam Shrestha, Garrick Orchard <br />
 **SLAYER** "Spike Layer Error Reassignment in Time".
  [[paper](http://papers.nips.cc/paper/7415-slayer-spike-layer-error-reassignment-in-time)]
+ [[code]( https://github.com/bamsumit/slayerPytorch)]
  * 	Dongsung Huh, Terrence J. Sejnowski <br />
 "Gradient Descent for Spiking Neural Networks".
  [[paper](http://papers.nips.cc/paper/7417-gradient-descent-for-spiking-neural-networks)]
