@@ -1,11 +1,19 @@
 # Spiking Neural Network Paper List
 ## code
-* Technical report: supervised training of convolutional spiking neural networks with PyTorch <br />
-[[code](https://github.com/romainzimmer/s2net)]
 * BindsNet[[code](https://github.com/BindsNET/bindsnet)] <br />
+* Brain2[[code](https://github.com/brian-team/brian2)] <br />
 * SpykeTorch[[code](https://github.com/miladmozafari/SpykeTorch)] <br />
-* Pure python Implementation SNN [[code](https://github.com/Shikhargupta/Spiking-Neural-Network)] <br />
+* Norse[[code](https://github.com/norse/norse)] <br />
+* SpikingFlow[[code](https://github.com/fangwei123456/SpikingFlow)] <br />
+* Nengo[[code](https://github.com/nengo/nengo)] <br />
+* PySNN[[code](https://github.com/BasBuller/PySNN)] <br />
+* SNN_toolbox[[code](https://github.com/NeuromorphicProcessorProject/snn_toolbox)] <br />
 ## Papers
+### IJCAI2020
+* Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu <br />
+"Exploiting Neuron and Synapse Filter Dynamics in Spatial Temporal Learning of Deep Spiking Neural Network"
+ [[paper](https://www.ijcai.org/Proceedings/2020/0388.pdf)]
+ [[code](https://github.com/Snow-Crash/snn-iir)]
 ### ICLR2020
 * Johannes C. Thiele, Olivier Bichler, Antoine Dupret <br />
 "SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes".
