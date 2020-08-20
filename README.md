@@ -9,6 +9,11 @@
 * PySNN[[code](https://github.com/BasBuller/PySNN)] <br />
 * SNN_toolbox[[code](https://github.com/NeuromorphicProcessorProject/snn_toolbox)] <br />
 ## Papers
+### CVPR2020
+* Bing Han, Gopalakrishnan Srinivasan, and Kaushik Roy
+"RMP-SNN: Residual Membrane Potential Neuron for Enabling Deeper High-Accuracy and Low-Latency Spiking Neural Network"
+[[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Han_RMP-SNN_Residual_Membrane_Potential_Neuron_for_Enabling_Deeper_High-Accuracy_and_CVPR_2020_paper.html)]
+
 ### IJCAI2020
 * Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu <br />
 "Exploiting Neuron and Synapse Filter Dynamics in Spatial Temporal Learning of Deep Spiking Neural Network"
@@ -55,6 +60,20 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
 * Rong Xiao, Qiang Yu, Rui Yan, Huajin Tang <br />
 "Fast and Accurate Classification with a Multi-Spike Learning Algorithm for Spiking Neurons".
  [[paper](https://www.ijcai.org/Proceedings/2019/0200.pdf)]
+ ### AAAI2019
+* Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
+"Direct Training for Spiking Neural Networks: Faster, Larger, Better".
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3929)]
+ [[code]( https://github.com/yjwu17/BP-for-SpikingNN)]
+* Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
+**TDSNN** "Direct Training for Spiking Neural Networks: Faster, Larger, Better".
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3931)]
+* Malu Zhang, Jibin Wu, Yansong Chua, Xiaoling Luo, Zihan Pan, Dan Liu, Haizhou Li <br />
+**MPD-AL** "An Efficient Membrane Potential Driven Aggregate-Label Learning Algorithm for Spiking Neurons".
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3932)]
+ * Lakshay Sahni, Debasrita Chakraborty, Ashish Ghosh <br />
+"Implementation of Boolean AND and OR Logic Gates with Biologically Reasonable Time Constants in Spiking Neural Networks".
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5147)]
  ### ICASSP2019
  * 	Cengiz Pehlevan <br />
 "A Spiking Neural Network with Local Learning Rules Derived from Nonnegative Similarity Matching".
@@ -115,21 +134,7 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
  * 	Akhilesh Jaiswal, Amogh Agrawal, Indranil Chakraborty, Deboleena Roy, Kaushik Roy <br />
 "On Robustness of Spin-Orbit-Torque Based Stochastic Sigmoid Neurons for Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8851780)]
-### AAAI2019
-* Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
-"Direct Training for Spiking Neural Networks: Faster, Larger, Better".
- [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3929)]
- [[code]( https://github.com/yjwu17/BP-for-SpikingNN)]
-* Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
-**TDSNN** "Direct Training for Spiking Neural Networks: Faster, Larger, Better".
- [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3931)]
-* Malu Zhang, Jibin Wu, Yansong Chua, Xiaoling Luo, Zihan Pan, Dan Liu, Haizhou Li <br />
-**MPD-AL** "An Efficient Membrane Potential Driven Aggregate-Label Learning Algorithm for Spiking Neurons".
- [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3932)]
- * Lakshay Sahni, Debasrita Chakraborty, Ashish Ghosh <br />
-"Implementation of Boolean AND and OR Logic Gates with Biologically Reasonable Time Constants in Spiking Neural Networks".
- [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5147)]
- 
+
  ### ICLR2018
 * 	Peter O'Connor, Efstratios Gavves, Matthias Reisser, Max Welling <br />
 "Temporally Efficient Deep Learning with Spikes".
