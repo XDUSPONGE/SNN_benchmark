@@ -9,10 +9,14 @@
 * PySNN[[code](https://github.com/BasBuller/PySNN)] <br />
 * SNN_toolbox[[code](https://github.com/NeuromorphicProcessorProject/snn_toolbox)] <br />
 ## Papers
-### CVPR2020 and ECCV2020
+### CVPR2020
 * Bing Han, Gopalakrishnan Srinivasan, and Kaushik Roy
 "RMP-SNN: Residual Membrane Potential Neuron for Enabling Deeper High-Accuracy and Low-Latency Spiking Neural Network"
 [[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Han_RMP-SNN_Residual_Membrane_Potential_Neuron_for_Enabling_Deeper_High-Accuracy_and_CVPR_2020_paper.html)]
+* Lin Zhu, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian
+"Retina-Like Visual Image Reconstruction via Spiking Neural Model"
+[[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_Retina-Like_Visual_Image_Reconstruction_via_Spiking_Neural_Model_CVPR_2020_paper.html)]
+### ECCV2020
 * Bing Han, Kaushik Roy
 "Deep Spiking Neural Network: Energy Efficiency Through Time based Coding"
 [[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1103_ECCV_2020_paper.php)]
