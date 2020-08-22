@@ -9,14 +9,26 @@
 * PySNN[[code](https://github.com/BasBuller/PySNN)] <br />
 * SNN_toolbox[[code](https://github.com/NeuromorphicProcessorProject/snn_toolbox)] <br />
 ## Papers
-### CVPR2020
+### CVPR2020 and ECCV2020
 * Bing Han, Gopalakrishnan Srinivasan, and Kaushik Roy
 "RMP-SNN: Residual Membrane Potential Neuron for Enabling Deeper High-Accuracy and Low-Latency Spiking Neural Network"
 [[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Han_RMP-SNN_Residual_Membrane_Potential_Neuron_for_Enabling_Deeper_High-Accuracy_and_CVPR_2020_paper.html)]
-
+* Bing Han, Kaushik Roy
+"Deep Spiking Neural Network: Energy Efficiency Through Time based Coding"
+[[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1103_ECCV_2020_paper.php)]
+* Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniilidis, Kaushik Roy
+"Spike-FlowNet: Event-based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks"
+[[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6736_ECCV_2020_paper.php)]
+* Saima Sharmin, Nitin Rathi, Priyadarshini Panda, Kaushik Roy 
+" Inherent Adversarial Robustness of Deep Spiking Neural Networks: Effects of Discrete Input Encoding and Non-Linear Activations"
+[[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6748_ECCV_2020_paper.php)]
 ### IJCAI2020
 * Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu <br />
 "Exploiting Neuron and Synapse Filter Dynamics in Spatial Temporal Learning of Deep Spiking Neural Network"
+ [[paper](https://www.ijcai.org/Proceedings/2020/0388.pdf)]
+ [[code](https://github.com/Snow-Crash/snn-iir)]
+ * Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu <br />
+**LISNN**: "Improving Spiking Neural Networks with Lateral Interactions for Robust Object Recognition"
  [[paper](https://www.ijcai.org/Proceedings/2020/0388.pdf)]
  [[code](https://github.com/Snow-Crash/snn-iir)]
 ### ICLR2020
