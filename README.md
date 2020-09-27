@@ -59,6 +59,9 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
 "Biologically Plausible Sequence Learning with Spiking Neural Networks"
  [[paper](https://arxiv.org/abs/1911.10943)]
  [[code](https://github.com/owen94/MPNets)]
+ * 	Kian Hamedani, Lingjia Liu, Shiya Liu, Haibo He, Yang Yi <br />
+"Deep Spiking Delayed Feedback Reservoirs and Its Application in Spectrum Sensing of MIMO-OFDM Dynamic Spectrum Sharing"
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5484)]
  
 ### NIPS2019
 * Wenrui Zhang, Peng Li <br />
