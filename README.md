@@ -33,8 +33,7 @@
  [[code](https://github.com/Snow-Crash/snn-iir)]
  * Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu <br />
 **LISNN**: "Improving Spiking Neural Networks with Lateral Interactions for Robust Object Recognition"
- [[paper](https://www.ijcai.org/Proceedings/2020/0388.pdf)]
- [[code](https://github.com/Snow-Crash/snn-iir)]
+ [[paper](https://www.ijcai.org/Proceedings/2020/0211.pdf)]
 ### ICLR2020
 * Johannes C. Thiele, Olivier Bichler, Antoine Dupret <br />
 "SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes".
