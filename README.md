@@ -8,331 +8,259 @@
 * Nengo[[code](https://github.com/nengo/nengo)] <br />
 * PySNN[[code](https://github.com/BasBuller/PySNN)] <br />
 * SNN_toolbox[[code](https://github.com/NeuromorphicProcessorProject/snn_toolbox)] <br />
-## Papers
-### CVPR2020
-* Bing Han, Gopalakrishnan Srinivasan, and Kaushik Roy
-"RMP-SNN: Residual Membrane Potential Neuron for Enabling Deeper High-Accuracy and Low-Latency Spiking Neural Network"
-[[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Han_RMP-SNN_Residual_Membrane_Potential_Neuron_for_Enabling_Deeper_High-Accuracy_and_CVPR_2020_paper.html)]
-* Lin Zhu, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian
-"Retina-Like Visual Image Reconstruction via Spiking Neural Model"
-[[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_Retina-Like_Visual_Image_Reconstruction_via_Spiking_Neural_Model_CVPR_2020_paper.html)]
-### ECCV2020
-* Bing Han, Kaushik Roy
-"Deep Spiking Neural Network: Energy Efficiency Through Time based Coding"
-[[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1103_ECCV_2020_paper.php)]
-* Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniilidis, Kaushik Roy
-"Spike-FlowNet: Event-based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks"
-[[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6736_ECCV_2020_paper.php)]
-* Saima Sharmin, Nitin Rathi, Priyadarshini Panda, Kaushik Roy 
+## SNN Adversarial Robustness
+* Saima Sharmin, Nitin Rathi, Priyadarshini Panda, Kaushik Roy ***ECCV 2020***<br />
 " Inherent Adversarial Robustness of Deep Spiking Neural Networks: Effects of Discrete Input Encoding and Non-Linear Activations"
 [[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6748_ECCV_2020_paper.php)]
-### IJCAI2020
-* Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu <br />
+ [[code](https://github.com/ssharmin/spikingNN-adversarial-attack)]
+* Saima Sharmin, Priyadarshini Panda, Syed Shakib Sarwar, Chankyu Lee, Wachirawit Ponghiran, Kaushik Roy ***IJCNN 2019*** <br />
+"A Comprehensive Analysis on Adversarial Robustness of Spiking Neural Networks".
+ [[paper](https://ieeexplore.ieee.org/document/8851732)]
+* Akhilesh Jaiswal, Amogh Agrawal, Indranil Chakraborty, Deboleena Roy, Kaushik Roy ***IJCNN 2019***<br />
+"On Robustness of Spin-Orbit-Torque Based Stochastic Sigmoid Neurons for Spiking Neural Networks".
+ [[paper](https://ieeexplore.ieee.org/document/8851780)]
+ * Xueyuan She, Yun Long, Saibal Mukhopadhyay ***IJCNN 2019***<br />
+"Improving Robustness of ReRAM-based Spiking Neural Network Accelerator with Stochastic Spike-timing-dependent-plasticity".
+ [[paper](https://ieeexplore.ieee.org/document/8851825)]
+## Papers
+For the Spiking Neural Network studies, it can be roughly divided into three categories
+* The Conversion Method (Converting a well-trained ann to snn)
+* SNN trained with BP
+* SNN trained with Biological Plasticity Rules (STDP, Hebbian,etc)
+### Conversion Based Methods
+* Bing Han, Gopalakrishnan Srinivasan, and Kaushik Roy ***CVPR 2020***<br />
+"RMP-SNN: Residual Membrane Potential Neuron for Enabling Deeper High-Accuracy and Low-Latency Spiking Neural Network"
+[[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Han_RMP-SNN_Residual_Membrane_Potential_Neuron_for_Enabling_Deeper_High-Accuracy_and_CVPR_2020_paper.html)]
+* Bing Han, Kaushik Roy ***ECCV 2020*** <br />
+"Deep Spiking Neural Network: Energy Efficiency Through Time based Coding"
+[[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1103_ECCV_2020_paper.php)]
+ * Nitin Rathi, Gopalakrishnan Srinivasan, Priyadarshini Panda, Kaushik Roy ***ICLR 2020***<br />
+"Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation".
+ [[paper](https://arxiv.org/pdf/2005.01807.pdf)]
+ [[code](https://github.com/nitin-rathi/hybrid-snn-conversion.git)]
+ * Seijoon Kim, Seongsik Park, Byunggook Na, Sungroh Yoon ***AAAI 2020***<br />
+**Spiking-YOLO:** "Spiking Neural Network for Energy-Efficient Object Detection"
+ [[paper](https://arxiv.org/pdf/1903.06530.pdf)]
+ * Lei Zhang, Shengyuan Zhou, Tian Zhi, Zidong Du, Yunji Chen ***AAAI 2019***<br />
+**TDSNN** "DFrom Deep Neural Networks to Deep Spike Neural Networks with Temporal-Coding".
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3931)]
+ * Ruizhi Chen, Hong Ma, Shaolin Xie, Peng Guo, Pin Li, Donglin Wang ***IJCNN 2018***<br />
+"Fast and Efficient Deep Sparse Multi-Strength Spiking Neural Networks with Dynamic Pruning".
+  * Jingling Li, Weitai Hu, Ye Yuan, Hong Huo, Tao Fang ***ICONIP 2017***<br />
+"Bio-Inspired Deep Spiking Neural Network for Image Classification".
+ [[paper](https://link.springer.com/chapter/10.1007%2F978-3-319-70096-0_31)]
+ [[paper](https://ieeexplore.ieee.org/document/8489339)]
+
+### SNN trained with BP
+* Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu ***IJCAI 2020***<br />
 "Exploiting Neuron and Synapse Filter Dynamics in Spatial Temporal Learning of Deep Spiking Neural Network"
  [[paper](https://www.ijcai.org/Proceedings/2020/0388.pdf)]
  [[code](https://github.com/Snow-Crash/snn-iir)]
- * Xiang Cheng, Yunzhe Hao, Jiaming Xu, Bo Xu <br />
+ * Xiang Cheng, Yunzhe Hao, Jiaming Xu, Bo Xu ***IJCAI 2020***<br />
 **LISNN**: "Improving Spiking Neural Networks with Lateral Interactions for Robust Object Recognition"
  [[paper](https://www.ijcai.org/Proceedings/2020/0211.pdf)]
-### ICLR2020
-* Johannes C. Thiele, Olivier Bichler, Antoine Dupret <br />
+ * Johannes C. Thiele, Olivier Bichler, Antoine Dupret ***ICLR 2020***<br />
 "SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes".
  [[paper](https://arxiv.org/pdf/1906.00851.pdf)]
-* Jordan Guerguiev, Konrad P. Körding, Blake A. Richards <br />
+ * Jordan Guerguiev, Konrad P. Körding, Blake A. Richards ***ICLR 2020*** <br />
 "Spike-based causal inference for weight alignment".
- [[paper](https://openreview.net/forum?id=rkxs0yHFPH)]
+ [[paper](https://arxiv.org/pdf/1910.01689.pdf)]
  [[code](https://anonfile.com/51V8Ge66n3/Code_zip)]
- * Nitin Rathi, Gopalakrishnan Srinivasan, Priyadarshini Panda, Kaushik Roy <br />
-"Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation".
- [[paper](https://openreview.net/forum?id=B1xSperKvH)]
- [[code](https://github.com/nitin-rathi/hybrid-snn-conversion.git)]
-### AAAI2020
-* Qianhui Liu, Haibo Ruan, Dong Xing, Huajin Tang, Gang Pan <br />
-"Effective AER Object Classification Using Segmented Probability-Maximization
-Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
- [[paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuQ.6583.pdf)]
-* Seijoon Kim, Seongsik Park, Byunggook Na, Sungroh Yoon <br />
-**Spiking-YOLO:** "Spiking Neural Network for Energy-Efficient Object Detection"
- [[paper](https://arxiv.org/pdf/1903.06530.pdf)]
-* Zuozhu Liu, Thiparat Chotibut, Christopher Hillar, Shaowei Lin <br />
-"Biologically Plausible Sequence Learning with Spiking Neural Networks"
- [[paper](https://arxiv.org/abs/1911.10943)]
- [[code](https://github.com/owen94/MPNets)]
- * 	Kian Hamedani, Lingjia Liu, Shiya Liu, Haibo He, Yang Yi <br />
+  * 	Kian Hamedani, Lingjia Liu, Shiya Liu, Haibo He, Yang Yi ***AAAI 2020***<br />
 "Deep Spiking Delayed Feedback Reservoirs and Its Application in Spectrum Sensing of MIMO-OFDM Dynamic Spectrum Sharing"
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5484)]
- * 	Shenglan Li, Qiang Yu <br />
-"New Efficient Multi-Spike Learning for Fast Processing and Robust Learning"
- [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5895)]
-### NIPS2019
-* Wenrui Zhang, Peng Li <br />
+ * Wenrui Zhang, Peng Li ***NIPS 2019***<br />
 "Spike-Train Level Backpropagation for Training Deep Recurrent Spiking Neural Networks".
  [[paper](http://papers.nips.cc/paper/8995-spike-train-level-backpropagation-for-training-deep-recurrent-spiking-neural-networks)]
-* Mohammad Reza Keshtkaran, Chethan Pandarinath <br />
-"Enabling hyperparameter optimization in sequential autoencoders for spiking neural data".
- [[paper](http://papers.nips.cc/paper/9722-enabling-hyperparameter-optimization-in-sequential-autoencoders-for-spiking-neural-data)]
-### IJCAI2019
-* Pengjie Gu, Rong Xiao, Gang Pan, Huajin Tang <br />
-**STCA:** "STCA: Spatio-Temporal Credit Assignment with Delayed Feedback in Deep Spiking Neural Networks".
- [[paper](https://www.ijcai.org/proceedings/2019/0189.pdf)]
- [[code](https://github.com/Squirtle-gpj/STCA-DSNN)]
- 
-* Rong Xiao, Qiang Yu, Rui Yan, Huajin Tang <br />
-"Fast and Accurate Classification with a Multi-Spike Learning Algorithm for Spiking Neurons".
- [[paper](https://www.ijcai.org/Proceedings/2019/0200.pdf)]
- ### AAAI2019
-* Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
+* Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi ***AAAI 2019***<br />
 "Direct Training for Spiking Neural Networks: Faster, Larger, Better".
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3929)]
  [[code]( https://github.com/yjwu17/BP-for-SpikingNN)]
-* Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, Luping Shi <br />
-**TDSNN** "Direct Training for Spiking Neural Networks: Faster, Larger, Better".
- [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3931)]
-* Malu Zhang, Jibin Wu, Yansong Chua, Xiaoling Luo, Zihan Pan, Dan Liu, Haizhou Li <br />
+ * Malu Zhang, Jibin Wu, Yansong Chua, Xiaoling Luo, Zihan Pan, Dan Liu, Haizhou Li ***AAAI 2019***<br />
 **MPD-AL** "An Efficient Membrane Potential Driven Aggregate-Label Learning Algorithm for Spiking Neurons".
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3932)]
- * Lakshay Sahni, Debasrita Chakraborty, Ashish Ghosh <br />
-"Implementation of Boolean AND and OR Logic Gates with Biologically Reasonable Time Constants in Spiking Neural Networks".
- [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5147)]
- ### ICASSP2019
- * 	Cengiz Pehlevan <br />
+* Cengiz Pehlevan ***ICASSP 2019***<br />
 "A Spiking Neural Network with Local Learning Rules Derived from Nonnegative Similarity Matching".
  [[paper](https://ieeexplore.ieee.org/document/8682290)]
-  * Robert Luke, David McAlpine <br />
-"A Spiking Neural Network Approach to Auditory Source Lateralisation".
- [[paper](https://ieeexplore.ieee.org/document/8683767)]
-### ICONIP2019
- * Hui Yan, Xinle Liu, Hong Huo, Tao Fang <br />
-"Mechanisms of Reward-Modulated STDP and Winner-Take-All in Bayesian Spiking Decision-Making Circuit".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-36718-3_14)]
-  * Megumi Ito, Malte J. Rasch, Masatoshi Ishii, Atsuya Okazaki, SangBum Kim, Junka Okazawa, Akiyo Nomura, Kohji Hosokawa, Wilfried Haensch <br />
+* Megumi Ito, Malte J. Rasch, Masatoshi Ishii, Atsuya Okazaki, SangBum Kim, Junka Okazawa, Akiyo Nomura, Kohji Hosokawa, Wilfried Haensch***ICONIP 2019*** <br />
 "Training Large-Scale Spiking Neural Networks on Multi-core Neuromorphic System Using Backpropagation".
  [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-36718-3_16)]
- * 	Dhvani Shah, Grace Y. Wang, Maryam Gholami Doborjeh, Zohreh Gholami Doborjeh, Nikola Kasabov <br />
-"Deep Learning of EEG Data in the NeuCube Brain-Inspired Spiking Neural Network Architecture for a Better Understanding of Depression".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-36718-3_17)]
- ### IJCNN2019
- * Yanli Yao, Qiang Yu, Longbiao Wang, Jianwu Dang <br />
-"A Spiking Neural Network with Distributed Keypoint Encoding for Robust Sound Recognition".
- [[paper](https://ieeexplore.ieee.org/document/8852166)]
-  * Catherine D. Schuman, James S. Plank, Grant Bruer, Jeremy Anantharaj <br />
-"Non-Traditional Input Encoding Schemes for Spiking Neuromorphic Systems".
- [[paper](https://ieeexplore.ieee.org/document/8852139/)]
- * Maximilian P. R. Löhr, Daniel Schmid, Heiko Neumann <br />
-"Motion Integration and Disambiguation by Spiking V1-MT-MSTl Feedforward-Feedback Interaction".
- [[paper](https://ieeexplore.ieee.org/document/8852029)]
- * Pierre Falez, Pierre Tirilly, Ioan Marius Bilasco, Philippe Devienne, Pierre Boulet <br />
-"Multi-layered Spiking Neural Network with Target Timestamp Threshold Adaptation and STDP".
- [[paper](https://ieeexplore.ieee.org/document/8852346)]
-  * Kyunghee Lee, Hongchi Shi <br />
-"A Modular Approach to Construction of Spiking Neural Networks".
- [[paper](https://ieeexplore.ieee.org/document/8851740)]
- * 	Johannes C. Thiele, Olivier Bichler, Antoine Dupret, Sergio Solinas, Giacomo Indiveri <br />
+ * Johannes C. Thiele, Olivier Bichler, Antoine Dupret, Sergio Solinas, Giacomo Indiveri ***IJCNN 2019***<br />
 "A Spiking Network for Inference of Relations Trained with Neuromorphic Backpropagation".
  [[paper](https://ieeexplore.ieee.org/document/8852360)]
-  * Esma Mansouri-Benssassi, Juan Ye <br />
-"Speech Emotion Recognition With Early Visual Cross-modal Enhancement Using Spiking Neural Networks".
- [[paper](https://ieeexplore.ieee.org/document/8852473)]
- * 	Xueyuan She, Yun Long, Saibal Mukhopadhyay <br />
-"Improving Robustness of ReRAM-based Spiking Neural Network Accelerator with Stochastic Spike-timing-dependent-plasticity".
- [[paper](https://ieeexplore.ieee.org/document/8851825)]
-  * Jibin Wu, Yansong Chua, Malu Zhang, Qu Yang, Guoqi Li, Haizhou Li <br />
-"Deep Spiking Neural Network with Spike Count based Learning Rule".
- [[paper](https://ieeexplore.ieee.org/document/8852380)]
-   * 	Mikhail Kiselev, Andrey Lavrentyev <br />
-"A Preprocessing Layer in Spiking Neural Networks - Structure, Parameters, Performance Criteria".
- [[paper](https://ieeexplore.ieee.org/document/8851848)]
- * 	Won-Mook Kang, Chul-Heung Kim, Soochang Lee, Sung Yun Woo, Jong-Ho Bae, Byung-Gook Park, Jong-Ho Lee<br />
-"A Spiking Neural Network with a Global Self-Controller for Unsupervised Learning Based on Spike-Timing-Dependent Plasticity Using Flash Memory Synaptic Devices".
- [[paper](https://ieeexplore.ieee.org/document/8851744)]
-  * Lyes Khacef, Benoît Miramond, Diego Barrientos, Andres Upegui<br />
-"Self-organizing neurons: toward brain-inspired unsupervised learning".
- [[paper](https://ieeexplore.ieee.org/document/8852098)]
-  * Saima Sharmin, Priyadarshini Panda, Syed Shakib Sarwar, Chankyu Lee, Wachirawit Ponghiran, Kaushik Roy <br />
-"A Comprehensive Analysis on Adversarial Robustness of Spiking Neural Networks".
- [[paper](https://ieeexplore.ieee.org/document/8851732)]
- * 	Akhilesh Jaiswal, Amogh Agrawal, Indranil Chakraborty, Deboleena Roy, Kaushik Roy <br />
-"On Robustness of Spin-Orbit-Torque Based Stochastic Sigmoid Neurons for Spiking Neural Networks".
- [[paper](https://ieeexplore.ieee.org/document/8851780)]
-
- ### ICLR2018
-* 	Peter O'Connor, Efstratios Gavves, Matthias Reisser, Max Welling <br />
-"Temporally Efficient Deep Learning with Spikes".
- [[paper](https://openreview.net/forum?id=HkZy-bW0-)]
- ### ICML2018
-* 	Aditya Gilra, Wulfram Gerstner <br />
-"Non-Linear Motor Control by Local Learning in Spiking Neural Networks".
- [[paper](http://proceedings.mlr.press/v80/gilra18a.html)]
- * 	Thomas Miconi, Jeff Clune, Kenneth O. Stanley <br />
+  * 	Thomas Miconi, Jeff Clune, Kenneth O. Stanley ***ICML 2018***<br />
 "Differentiable plasticity: training plastic neural networks with backpropagation".
  [[paper](https://arxiv.org/abs/1804.02464)]
   [[code]( https://github.com/uber-research/differentiable-plasticity)]
- ### NIPS2018
- * 	Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert A. Legenstein, Wolfgang Maass <br />
+ * 	Dongsung Huh, Terrence J. Sejnowski ***NIPS 2018***<br />
+"Gradient Descent for Spiking Neural Networks".
+ [[paper](http://papers.nips.cc/paper/7417-gradient-descent-for-spiking-neural-networks)]
+* Yingyezhe Jin, Wenrui Zhang, Peng Li ***NIPS 2018***<br />
+"Hybrid Macro/Micro Level Backpropagation for Training Deep Spiking Neural Networks".
+ [[paper](http://papers.nips.cc/paper/7932-hybrid-macromicro-level-backpropagation-for-training-deep-spiking-neural-networks)]
+ 
+### SNN trained with Biological Plasticity Rules (STDP, Hebbian,etc)
+* Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniilidis, Kaushik Roy ***ECCV 2020***<br />
+"Spike-FlowNet: Event-based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks"
+[[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/html/6736_ECCV_2020_paper.php)]
+[[code](https://github.com/chan8972/Spike-FlowNet)]
+* Lin Zhu, Siwei Dong, Jianing Li, Tiejun Huang, Yonghong Tian ***CVPR 2020***<br />
+"Retina-Like Visual Image Reconstruction via Spiking Neural Model"
+[[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_Retina-Like_Visual_Image_Reconstruction_via_Spiking_Neural_Model_CVPR_2020_paper.html)]
+* Qianhui Liu, Haibo Ruan, Dong Xing, Huajin Tang, Gang Pan ***AAAI 2020***<br />
+"Effective AER Object Classification Using Segmented Probability-Maximization
+Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
+ [[paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuQ.6583.pdf)]
+* Zuozhu Liu, Thiparat Chotibut, Christopher Hillar, Shaowei Lin ***AAAI 2020*** <br />
+"Biologically Plausible Sequence Learning with Spiking Neural Networks"
+ [[paper](https://arxiv.org/abs/1911.10943)]
+ [[code](https://github.com/owen94/MPNets)]
+ * Shenglan Li, Qiang Yu ***AAAI 2020***<br />
+"New Efficient Multi-Spike Learning for Fast Processing and Robust Learning"
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5896)]
+ * Pengjie Gu, Rong Xiao, Gang Pan, Huajin Tang ***IJCAI 2019***<br />
+**STCA:** "STCA: Spatio-Temporal Credit Assignment with Delayed Feedback in Deep Spiking Neural Networks".
+ [[paper](https://www.ijcai.org/proceedings/2019/0189.pdf)]
+ [[code](https://github.com/Squirtle-gpj/STCA-DSNN)]
+ * Rong Xiao, Qiang Yu, Rui Yan, Huajin Tang ***IJCAI 2019***<br />
+"Fast and Accurate Classification with a Multi-Spike Learning Algorithm for Spiking Neurons".
+ [[paper](https://www.ijcai.org/Proceedings/2019/0200.pdf)]
+  * Lakshay Sahni, Debasrita Chakraborty, Ashish Ghosh ***AAAI 2019***<br />
+"Implementation of Boolean AND and OR Logic Gates with Biologically Reasonable Time Constants in Spiking Neural Networks".
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5147)]
+  * Robert Luke, David McAlpine ***ICASSP 2019***<br />
+"A Spiking Neural Network Approach to Auditory Source Lateralisation".
+ [[paper](https://ieeexplore.ieee.org/document/8683767)]
+  * Hui Yan, Xinle Liu, Hong Huo, Tao Fang ***ICONIP 2019***<br />
+"Mechanisms of Reward-Modulated STDP and Winner-Take-All in Bayesian Spiking Decision-Making Circuit".
+ [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-36718-3_14)]
+  * Yanli Yao, Qiang Yu, Longbiao Wang, Jianwu Dang ***IJCNN 2019***<br />
+"A Spiking Neural Network with Distributed Keypoint Encoding for Robust Sound Recognition".
+ [[paper](https://ieeexplore.ieee.org/document/8852166)]
+  * Pierre Falez, Pierre Tirilly, Ioan Marius Bilasco, Philippe Devienne, Pierre Boulet ***IJCNN 2019*** <br />
+"Multi-layered Spiking Neural Network with Target Timestamp Threshold Adaptation and STDP".
+ [[paper](https://ieeexplore.ieee.org/document/8852346)]
+ * Jibin Wu, Yansong Chua, Malu Zhang, Qu Yang, Guoqi Li, Haizhou Li ***IJCNN 2019***<br />
+"Deep Spiking Neural Network with Spike Count based Learning Rule".
+ [[paper](https://ieeexplore.ieee.org/document/8852380)]
+  * Maximilian P. R. Löhr, Daniel Schmid, Heiko Neumann ***IJCNN 2019***<br />
+"Motion Integration and Disambiguation by Spiking V1-MT-MSTl Feedforward-Feedback Interaction".
+ [[paper](https://ieeexplore.ieee.org/document/8852029)]
+   * Esma Mansouri-Benssassi, Juan Ye ***IJCNN 2019***<br />
+"Speech Emotion Recognition With Early Visual Cross-modal Enhancement Using Spiking Neural Networks".
+ [[paper](https://ieeexplore.ieee.org/document/8852473)]
+ * 	Mikhail Kiselev, Andrey Lavrentyev ***IJCNN 2019***<br />
+"A Preprocessing Layer in Spiking Neural Networks - Structure, Parameters, Performance Criteria".
+ [[paper](https://ieeexplore.ieee.org/document/8851848)]
+ *Won-Mook Kang, Chul-Heung Kim, Soochang Lee, Sung Yun Woo, Jong-Ho Bae, Byung-Gook Park, Jong-Ho Lee ***IJCNN 2019***<br />
+"A Spiking Neural Network with a Global Self-Controller for Unsupervised Learning Based on Spike-Timing-Dependent Plasticity Using Flash Memory Synaptic Devices".
+ [[paper](https://ieeexplore.ieee.org/document/8851744)]
+  * Lyes Khacef, Benoît Miramond, Diego Barrientos, Andres Upegui ***IJCNN 2019***<br />
+"Self-organizing neurons: toward brain-inspired unsupervised learning".
+ [[paper](https://ieeexplore.ieee.org/document/8852098)]
+ * 	Peter O'Connor, Efstratios Gavves, Matthias Reisser, Max Welling ***ICLR 2018***<br />
+"Temporally Efficient Deep Learning with Spikes".
+ [[paper](https://openreview.net/forum?id=HkZy-bW0-)]
+ * 	Aditya Gilra, Wulfram Gerstner ***ICML 2018***<br />
+"Non-Linear Motor Control by Local Learning in Spiking Neural Networks".
+ [[paper](http://proceedings.mlr.press/v80/gilra18a.html)]
+ *Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert A. Legenstein, Wolfgang Maass ***NIPS 2018***<br />
 "Long short-term memory and Learning-to-learn in networks of spiking neurons".
  [[paper](http://papers.nips.cc/paper/7359-long-short-term-memory-and-learning-to-learn-in-networks-of-spiking-neurons)]
- * Sumit Bam Shrestha, Garrick Orchard <br />
+ * Sumit Bam Shrestha, Garrick Orchard ***NIPS 2018***<br />
 **SLAYER** "Spike Layer Error Reassignment in Time".
  [[paper](http://papers.nips.cc/paper/7415-slayer-spike-layer-error-reassignment-in-time)]
  [[code]( https://github.com/bamsumit/slayerPytorch)]
- * 	Dongsung Huh, Terrence J. Sejnowski <br />
-"Gradient Descent for Spiking Neural Networks".
- [[paper](http://papers.nips.cc/paper/7417-gradient-descent-for-spiking-neural-networks)]
-* Yingyezhe Jin, Wenrui Zhang, Peng Li <br />
-"Hybrid Macro/Micro Level Backpropagation for Training Deep Spiking Neural Networks".
- [[paper](http://papers.nips.cc/paper/7932-hybrid-macromicro-level-backpropagation-for-training-deep-spiking-neural-networks)]
-* Lea Duncker, Maneesh Sahani <br />
-"Temporal alignment and latent Gaussian process factor inference in population spike trains".
- [[paper](http://papers.nips.cc/paper/8245-temporal-alignment-and-latent-gaussian-process-factor-inference-in-population-spike-trains)]
-### IJCAI2018
-* Yu Qi, Jiangrong Shen, Yueming Wang, Huajin Tang, Hang Yu, Zhaohui Wu, Gang Pan <br />
+ * Yu Qi, Jiangrong Shen, Yueming Wang, Huajin Tang, Hang Yu, Zhaohui Wu, Gang Pan ***IJCAI 2018***<br />
 Jointly Learning Network Connections and Link Weights in Spiking Neural Networks".
  [[paper](https://www.ijcai.org/Proceedings/2018/221)]
-* Qi Xu, Yu Qi, Hang Yu, Jiangrong Shen, Huajin Tang, Gang Pan <br />
+* Qi Xu, Yu Qi, Hang Yu, Jiangrong Shen, Huajin Tang, Gang Pan ***IJCAI 2018***<br />
 **CSNN** "An Augmented Spiking based Framework with Perceptron-Inception".
  [[paper](https://www.ijcai.org/Proceedings/2018/228)]
- * Tielin Zhang, Yi Zeng, Dongcheng Zhao, Bo Xu <br />
+ * Tielin Zhang, Yi Zeng, Dongcheng Zhao, Bo Xu ***IJCAI 2018***<br />
 **VPSNN** Tielin Zhang, Yi Zeng, Dongcheng Zhao, Bo Xu.
  [[paper](https://www.ijcai.org/Proceedings/2018/229)]
- ### AAAI2018
- * Alireza Alemi, Christian K. Machens, Sophie Denève, Jean-Jacques E. Slotine <br />
+  * Alireza Alemi, Christian K. Machens, Sophie Denève, Jean-Jacques E. Slotine ***AAAI 2018***<br />
 "Learning Nonlinear Dynamics in Efficient, Balanced Spiking Networks Using Local Plasticity Rules".
  [[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17438)]
- * Tielin Zhang, Yi Zeng, Dongcheng Zhao, Mengting Shi <br />
+ * Tielin Zhang, Yi Zeng, Dongcheng Zhao, Mengting Shi ***AAAI 2018***<br />
 "A Plasticity-Centric Approach to Train the Non-Differential Spiking Neural Networks".
  [[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16105)]
- ### ICASSP2018
- * Alireza Bagheri, Osvaldo Simeone, Bipin Rajendran <br />
+  * Alireza Bagheri, Osvaldo Simeone, Bipin Rajendran ***ICASSP 2018***<br />
 "Training Probabilistic Spiking Neural Networks with First- To-Spike Decoding".
- [[paper](https://ieeexplore.ieee.org/document/8682290)]
-  * Robert Luke, David McAlpine <br />
-"A Spiking Neural Network Approach to Auditory Source Lateralisation".
- [[paper](https://ieeexplore.ieee.org/document/8462410)]
-### ICONIP2018
- * Sou Nobukawa, Haruhiko Nishimura, Teruya Yamanishi <br />
-"Skewed and Long-Tailed Distributions of Spiking Activity in Coupled Network Modules with Log-Normal Synaptic Weight Distribution".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-04167-0_48)]
-  * Qiang Yu, Longbiao Wang, Jianwu Dang <br />
+ [[paper](https://arxiv.org/pdf/1710.10704.pdf)]
+   * Qiang Yu, Longbiao Wang, Jianwu Dang ***ICONIP 2018***<br />
 "Efficient Multi-spike Learning with Tempotron-Like LTP and PSD-Like LTD".
  [[paper](https://doi.org/10.1007/978-3-030-04167-0_49)]
- * 	Hiroaki Uchida, Toshimichi Saito <br />
-"A Ladder-Type Digital Spiking Neural Network".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-04167-0_50)]
- * Durgesh Nandini, Elisa Capecci, Lucien Koefoed, Ibai Laña, Gautam Kishore Shahi, Nikola Kasabov <br />
-"Modelling and Analysis of Temporal Gene Expression Data Using Spiking Neural Networks".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-04167-0_52)]
- *	Dong Niu, Dengju Li, Rui Yan, Huajin Tang <br />
-"A Gesture Recognition Method Based on Spiking Neural Networks for Cognition Development".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-04167-0_53)]
-  *	Jack Dray, Elisa Capecci, Nikola Kasabov <br />
-"Spiking Neural Networks for Cancer Gene Expression Time Series Modelling and Analysis".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-04167-0_57)]
-  ### IJCNN2018
- * 	Jiaxing Liu, Guoping Zhao <br />
+  * 	Jiaxing Liu, Guoping Zhao ***IJCNN 2018***<br />
 "A bio-inspired SOSNN model for object recognition".
  [[paper](https://ieeexplore.ieee.org/document/8489076/)]
-  * Amirhossein Tavanaei, Zachary Kirby, Anthony S. Maida <br />
+   * Amirhossein Tavanaei, Zachary Kirby, Anthony S. Maida ***IJCNN 2018***<br />
 "Training Spiking ConvNets by STDP and Gradient Descent".
  [[paper](https://ieeexplore.ieee.org/document/8489104)]
- * Renato C. Duarte, Marvin Uhlmann, Dick den van Broek, Hartmut Fitz, Karl Magnus Petersson, Abigail Morrison <br />
-"Encoding symbolic sequences with spiking neural reservoirs".
- [[paper](https://ieeexplore.ieee.org/document/8489114)]
- * 	Barna Zajzon, Renato C. Duarte, Abigail Morrison <br />
-"Transferring State Representations in Hierarchical Spiking Neural Networks".
- [[paper](https://ieeexplore.ieee.org/document/8489135)]
-  * Catherine D. Schuman, Grant Bruer, Aaron R. Young, Mark E. Dean, James S. Plank <br />
-"Understanding Selection And Diversity For Evolution Of Spiking Recurrent Neural Networks".
- [[paper](https://ieeexplore.ieee.org/document/8489149)]
-  * Yu Miao, Huajin Tang, Gang Pan<br />
+   * Yu Miao, Huajin Tang, Gang Pan ***IJCNN 2018***<br />
 "A Supervised Multi-Spike Learning Algorithm for Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489175)]
- * 	Timoleon Moraitis, Abu Sebastian, Evangelos Eleftheriou<br />
+ * Timoleon Moraitis, Abu Sebastian, Evangelos Eleftheriou ***IJCNN 2018***<br />
 "Spiking Neural Networks Enable Two-Dimensional Neurons and Unsupervised Multi-Timescale Learning".
  [[paper](https://ieeexplore.ieee.org/document/8489218)]
-  * Ruizhi Chen, Hong Ma, Shaolin Xie, Peng Guo, Pin Li, Donglin Wang<br />
-"Fast and Efficient Deep Sparse Multi-Strength Spiking Neural Networks with Dynamic Pruning".
- [[paper](https://ieeexplore.ieee.org/document/8489339)]
- * 	Sam Slade, Li Zhang<br />
+  * Sam Slade, Li Zhang ***IJCNN 2018***<br />
 "Topological Evolution of Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489375)]
- * Juan Pedro Dominguez-Morales, Qian Liu, Robert James, Daniel Gutierrez-Galan, Angel Jiménez-Fernandez, Simon Davidson, Steve B. Furber<br />
-"Deep Spiking Neural Network model for time-variant signals classification: a real-time speech recognition approach".
- [[paper](https://ieeexplore.ieee.org/document/8489381)]
- *	Ruizhi Chen, Hong Ma, Peng Guo, Shaolin Xie, Pin Li, Donglin Wang<br />
+  *	Ruizhi Chen, Hong Ma, Peng Guo, Shaolin Xie, Pin Li, Donglin Wang ***IJCNN 2018***<br />
 "Low Latency Spiking ConvNets with Restricted Output Training and False Spike Inhibition".
  [[paper](https://ieeexplore.ieee.org/document/8489400)]
-  *	Pierre Falez, Pierre Tirilly, Ioan Marius Bilasco, Philippe Devienne, Pierre Boulet<br />
+ * Pierre Falez, Pierre Tirilly, Ioan Marius Bilasco, Philippe Devienne, Pierre Boulet ***IJCNN 2018***<br />
 "Mastering the Output Frequency in Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489410)]
- *	Daqi Liu, Shigang Yue<br />
+  *	Daqi Liu, Shigang Yue ***IJCNN 2018***<br />
 "Video-Based Disguise Face Recognition Based on Deep Spiking Neural Network".
  [[paper](https://ieeexplore.ieee.org/document/8489476)]
-  *	Hoyoung Tang, Heetak Kim, Donghyeon Cho, Jongsun Park<br />
-"Spike Counts Based Low Complexity Learning with Binary Synapse".
- [[paper](https://ieeexplore.ieee.org/document/8489486)]
-  *	Jibin Wu, Yansong Chua, Haizhou Li<br />
-"A Biologically Plausible Speech Recognition Framework Based on Spiking Neural Networks".
- [[paper](https://ieeexplore.ieee.org/document/8489535)]
- * William Severa, Rich Lehoucq, Ojas Parekh, James B. Aimone<br />
-"Spiking Neural Algorithms for Markov Process Random Walk".
- [[paper](https://ieeexplore.ieee.org/document/8489628)]
- * 	Johannes C. Thiele, Olivier Bichler, Antoine Dupret<br />
+  * 	Johannes C. Thiele, Olivier Bichler, Antoine Dupret ***IJCNN 2018***<br />
 "A Timescale Invariant STDP-Based Spiking Deep Network for Unsupervised Online Feature Extraction from Event-Based Sensor Data".
  [[paper](https://ieeexplore.ieee.org/document/8489666)]
-  * Hananel Hazan, Daniel J. Saunders, Darpan T. Sanghavi, Hava T. Siegelmann, Robert Kozma<br />
+  * Hananel Hazan, Daniel J. Saunders, Darpan T. Sanghavi, Hava T. Siegelmann, Robert Kozma ***IJCNN 2018***<br />
 "Unsupervised Learning with Self-Organizing Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489673)]
-  * Daniel J. Saunders, Hava T. Siegelmann, Robert Kozma, Miklós Ruszinkó<br />
+  * Daniel J. Saunders, Hava T. Siegelmann, Robert Kozma, Miklós Ruszinkó ***IJCNN 2018***<br />
 "STDP Learning of Image Patches with Convolutional Spiking Neural Networks".
  [[paper](https://ieeexplore.ieee.org/document/8489684)]
-### IJCAI2017
-* Antonio Jimeno-Yepes, Jianbin Tang, Benjamin Scott Mashford <br />
+   *	Jibin Wu, Yansong Chua, Haizhou Li ***IJCNN 2018***<br />
+"A Biologically Plausible Speech Recognition Framework Based on Spiking Neural Networks".
+ [[paper](https://ieeexplore.ieee.org/document/8489535)]
+ * Antonio Jimeno-Yepes, Jianbin Tang, Benjamin Scott Mashford ***IJCAI 2017***<br />
 "Improving Classification Accuracy of Feedforward Neural Networks for Spiking Neuromorphic Chips".
  [[paper](https://www.ijcai.org/Proceedings/2017/274)]
-### ICONIP2017
- * 	Zhanhao Hu, Tao Wang, Xiaolin Hu <br />
+  * 	Zhanhao Hu, Tao Wang, Xiaolin Hu ***ICONIP 2017***<br />
 "An STDP-Based Supervised Learning Algorithm for Spiking Neural Network".
  [[paper](https://link.springer.com/chapter/10.1007%2F978-3-319-70096-0_10)]
-  * Jingling Li, Weitai Hu, Ye Yuan, Hong Huo, Tao Fang <br />
-"Bio-Inspired Deep Spiking Neural Network for Image Classification".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-319-70096-0_31)]
-  * Lin Zuo, Shan Chen, Hong Qu, Malu Zhang <br />
+   * Lin Zuo, Shan Chen, Hong Qu, Malu Zhang ***ICONIP 2017***<br />
 "A Fast Precise-Spike and Weight-Comparison Based Learning Approach for Evolving Spiking Neural Networks".
  [[paper](https://link.springer.com/chapter/10.1007%2F978-3-319-70090-8_81)]
-   * Junxiu Liu, Xingyue Huang, Yuling Luo, Yi Cao <br />
-"An Energy-Aware Hybrid Particle Swarm Optimization Algorithm for Spiking Neural Network Mapping".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-319-70090-8_82)]
- * 	Lin Zuo, Linyao Ma, Yanqing Xiao, Malu Zhang, Hong Qu <br />
-"A Dynamic Region Generation Algorithm for Image Segmentation Based on Spiking Neural Network".
- [[paper](https://link.springer.com/chapter/10.1007%2F978-3-319-70090-8_83)]
- ### IJCNN2017
- * 	Timoleon Moraitis, Abu Sebastian, Irem Boybat, Manuel Le Gallo, Tomas Tuma, Evangelos Eleftheriou <br />
-"Fatiguing STDP: Learning from spike-timing codes in the presence of rate codes".
- [[paper](https://ieeexplore.ieee.org/document/7966072)]
-  * Takashi Matsubara <br />
-"Spike timing-dependent conduction delay learning model classifying spatio-temporal spike patterns".
- [[paper](https://ieeexplore.ieee.org/document/7966073)]
-   * Laxmi R. Iyer, Arindam Basu <br />
-"Unsupervised learning of event-based image recordings using spike-timing-dependent plasticity".
- [[paper](https://ieeexplore.ieee.org/document/7966074)]
- * 	Gopalakrishnan Srinivasan, Sourjya Roy, Vijay Raghunathan, Kaushik Roy <br />
-"Spike timing dependent plasticity based enhanced self-learning for efficient pattern recognition in spiking neural networks".
- [[paper](https://ieeexplore.ieee.org/document/7966075)]
- * Amar Shrestha, Khadeer Ahmed, Yanzhi Wang, Qinru Qiu <br />
-"Stable spike-timing dependent plasticity rule for multilayer unsupervised and supervised learning".
- [[paper](https://ieeexplore.ieee.org/document/7966096)]
-  * Yingyezhe Jin, Peng Li <br />
-"Calcium-modulated supervised spike-timing-dependent plasticity for readout training and sparsification of the liquid state machine".
- [[paper](https://ieeexplore.ieee.org/document/7966097)]
- * 	Stephen J. Verzi, Craig M. Vineyard, Eric D. Vugrin, Meghan A. Galiardi, Conrad D. James, James B. Aimone <br />
-"Optimization-based computation with spiking neurons".
- [[paper](https://ieeexplore.ieee.org/document/7966098)]
-  * Amirhossein Tavanaei, Anthony S. Maida <br />
+   * Amirhossein Tavanaei, Anthony S. Maida ***IJCNN 2017***<br />
 "Multi-layer unsupervised learning in a spiking convolutional neural network".
  [[paper](https://ieeexplore.ieee.org/document/7966099)]
-  * Tae Seung Kang, Arunava Banerjee <br />
-"Learning deterministic spiking neuron feedback controllers".
- [[paper](https://ieeexplore.ieee.org/document/7966153)]
- * 	Amirali Amirsoleimani, Majid Ahmadi, Arash Ahmadi <br />
+   * Takashi Matsubara ***IJCNN 2017***<br />
+"Spike timing-dependent conduction delay learning model classifying spatio-temporal spike patterns".
+ [[paper](https://ieeexplore.ieee.org/document/7966073)]
+   * Laxmi R. Iyer, Arindam Basu ***IJCNN 2017***<br />
+"Unsupervised learning of event-based image recordings using spike-timing-dependent plasticity".
+ [[paper](https://ieeexplore.ieee.org/document/7966074)]
+ * 	Gopalakrishnan Srinivasan, Sourjya Roy, Vijay Raghunathan, Kaushik Roy ***IJCNN 2017***<br />
+"Spike timing dependent plasticity based enhanced self-learning for efficient pattern recognition in spiking neural networks".
+ [[paper](https://ieeexplore.ieee.org/document/7966075)]
+ * Amar Shrestha, Khadeer Ahmed, Yanzhi Wang, Qinru Qiu ***IJCNN 2017***<br />
+"Stable spike-timing dependent plasticity rule for multilayer unsupervised and supervised learning".
+ [[paper](https://ieeexplore.ieee.org/document/7966096)]
+  * 	Timoleon Moraitis, Abu Sebastian, Irem Boybat, Manuel Le Gallo, Tomas Tuma, Evangelos Eleftheriou ***IJCNN 2017***<br />
+"Fatiguing STDP: Learning from spike-timing codes in the presence of rate codes".
+ [[paper](https://ieeexplore.ieee.org/document/7966072)]
+   * Yingyezhe Jin, Peng Li ***IJCNN 2017***<br />
+"Calcium-modulated supervised spike-timing-dependent plasticity for readout training and sparsification of the liquid state machine".
+ [[paper](https://ieeexplore.ieee.org/document/7966097)]
+ * 	Amirali Amirsoleimani, Majid Ahmadi, Arash Ahmadi ***IJCNN 2017***<br />
 "STDP-based unsupervised learning of memristive spiking neural network by Morris-Lecar model".
  [[paper](https://ieeexplore.ieee.org/document/7966284)]
+
+
+
