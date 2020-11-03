@@ -4,7 +4,7 @@
 * Brain2[[code](https://github.com/brian-team/brian2)] <br />
 * SpykeTorch[[code](https://github.com/miladmozafari/SpykeTorch)] <br />
 * Norse[[code](https://github.com/norse/norse)] <br />
-* SpikingFlow[[code](https://github.com/fangwei123456/SpikingFlow)] <br />
+* SpikingJelly[[code](https://github.com/fangwei123456/SpikingFlow)] <br />
 * Nengo[[code](https://github.com/nengo/nengo)] <br />
 * PySNN[[code](https://github.com/BasBuller/PySNN)] <br />
 * SNN_toolbox[[code](https://github.com/NeuromorphicProcessorProject/snn_toolbox)] <br />
@@ -62,7 +62,9 @@ Learning in Spiking Neural Networks" AAAI (2020 **Oral**).
  * 	Kian Hamedani, Lingjia Liu, Shiya Liu, Haibo He, Yang Yi <br />
 "Deep Spiking Delayed Feedback Reservoirs and Its Application in Spectrum Sensing of MIMO-OFDM Dynamic Spectrum Sharing"
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5484)]
- 
+ * 	Shenglan Li, Qiang Yu <br />
+"New Efficient Multi-Spike Learning for Fast Processing and Robust Learning"
+ [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5895)]
 ### NIPS2019
 * Wenrui Zhang, Peng Li <br />
 "Spike-Train Level Backpropagation for Training Deep Recurrent Spiking Neural Networks".
