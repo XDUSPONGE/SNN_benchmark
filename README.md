@@ -66,7 +66,7 @@ For the Spiking Neural Network studies, it can be roughly divided into three cat
 "Spike-based causal inference for weight alignment".
  [[paper](https://arxiv.org/pdf/1910.01689.pdf)]
  [[code](https://anonfile.com/51V8Ge66n3/Code_zip)]
-  * 	Kian Hamedani, Lingjia Liu, Shiya Liu, Haibo He, Yang Yi ***AAAI 2020***<br />
+  * Kian Hamedani, Lingjia Liu, Shiya Liu, Haibo He, Yang Yi ***AAAI 2020***<br />
 "Deep Spiking Delayed Feedback Reservoirs and Its Application in Spectrum Sensing of MIMO-OFDM Dynamic Spectrum Sharing"
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5484)]
  * Wenrui Zhang, Peng Li ***NIPS 2019***<br />
@@ -88,7 +88,7 @@ For the Spiking Neural Network studies, it can be roughly divided into three cat
  * Johannes C. Thiele, Olivier Bichler, Antoine Dupret, Sergio Solinas, Giacomo Indiveri ***IJCNN 2019***<br />
 "A Spiking Network for Inference of Relations Trained with Neuromorphic Backpropagation".
  [[paper](https://ieeexplore.ieee.org/document/8852360)]
-  * 	Thomas Miconi, Jeff Clune, Kenneth O. Stanley ***ICML 2018***<br />
+  * Thomas Miconi, Jeff Clune, Kenneth O. Stanley ***ICML 2018***<br />
 "Differentiable plasticity: training plastic neural networks with backpropagation".
  [[paper](https://arxiv.org/abs/1804.02464)]
   [[code]( https://github.com/uber-research/differentiable-plasticity)]
@@ -192,7 +192,7 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
    * Qiang Yu, Longbiao Wang, Jianwu Dang ***ICONIP 2018***<br />
 "Efficient Multi-spike Learning with Tempotron-Like LTP and PSD-Like LTD".
  [[paper](https://doi.org/10.1007/978-3-030-04167-0_49)]
-  * 	Jiaxing Liu, Guoping Zhao ***IJCNN 2018***<br />
+  * Jiaxing Liu, Guoping Zhao ***IJCNN 2018***<br />
 "A bio-inspired SOSNN model for object recognition".
  [[paper](https://ieeexplore.ieee.org/document/8489076/)]
    * Amirhossein Tavanaei, Zachary Kirby, Anthony S. Maida ***IJCNN 2018***<br />
@@ -216,7 +216,7 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
   *	Daqi Liu, Shigang Yue ***IJCNN 2018***<br />
 "Video-Based Disguise Face Recognition Based on Deep Spiking Neural Network".
  [[paper](https://ieeexplore.ieee.org/document/8489476)]
-  * 	Johannes C. Thiele, Olivier Bichler, Antoine Dupret ***IJCNN 2018***<br />
+  * Johannes C. Thiele, Olivier Bichler, Antoine Dupret ***IJCNN 2018***<br />
 "A Timescale Invariant STDP-Based Spiking Deep Network for Unsupervised Online Feature Extraction from Event-Based Sensor Data".
  [[paper](https://ieeexplore.ieee.org/document/8489666)]
   * Hananel Hazan, Daniel J. Saunders, Darpan T. Sanghavi, Hava T. Siegelmann, Robert Kozma ***IJCNN 2018***<br />
@@ -231,7 +231,7 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
  * Antonio Jimeno-Yepes, Jianbin Tang, Benjamin Scott Mashford ***IJCAI 2017***<br />
 "Improving Classification Accuracy of Feedforward Neural Networks for Spiking Neuromorphic Chips".
  [[paper](https://www.ijcai.org/Proceedings/2017/274)]
-  * 	Zhanhao Hu, Tao Wang, Xiaolin Hu ***ICONIP 2017***<br />
+  * Zhanhao Hu, Tao Wang, Xiaolin Hu ***ICONIP 2017***<br />
 "An STDP-Based Supervised Learning Algorithm for Spiking Neural Network".
  [[paper](https://link.springer.com/chapter/10.1007%2F978-3-319-70096-0_10)]
    * Lin Zuo, Shan Chen, Hong Qu, Malu Zhang ***ICONIP 2017***<br />
@@ -252,7 +252,7 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
  * Amar Shrestha, Khadeer Ahmed, Yanzhi Wang, Qinru Qiu ***IJCNN 2017***<br />
 "Stable spike-timing dependent plasticity rule for multilayer unsupervised and supervised learning".
  [[paper](https://ieeexplore.ieee.org/document/7966096)]
-  * 	Timoleon Moraitis, Abu Sebastian, Irem Boybat, Manuel Le Gallo, Tomas Tuma, Evangelos Eleftheriou ***IJCNN 2017***<br />
+  * Timoleon Moraitis, Abu Sebastian, Irem Boybat, Manuel Le Gallo, Tomas Tuma, Evangelos Eleftheriou ***IJCNN 2017***<br />
 "Fatiguing STDP: Learning from spike-timing codes in the presence of rate codes".
  [[paper](https://ieeexplore.ieee.org/document/7966072)]
    * Yingyezhe Jin, Peng Li ***IJCNN 2017***<br />
