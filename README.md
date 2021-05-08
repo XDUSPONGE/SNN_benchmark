@@ -1,5 +1,5 @@
 # Spiking Neural Network Paper List
-## code
+## Framework
 * BindsNet[[code](https://github.com/BindsNET/bindsnet)] <br />
 * Brain2[[code](https://github.com/brian-team/brian2)] <br />
 * SpykeTorch[[code](https://github.com/miladmozafari/SpykeTorch)] <br />
@@ -22,12 +22,28 @@
  * Xueyuan She, Yun Long, Saibal Mukhopadhyay ***IJCNN 2019***<br />
 "Improving Robustness of ReRAM-based Spiking Neural Network Accelerator with Stochastic Spike-timing-dependent-plasticity".
  [[paper](https://ieeexplore.ieee.org/document/8851825)]
+## Other Application
+* Allan Mancoo, Sander W. Keemink, Christian K. Machens  ***NIPS 2020***<br />
+"Understanding spiking networks through convex optimization"
+ [[paper](https://proceedings.neurips.cc/paper/2020/file/64714a86909d401f8feb83e8c2d94b23-Paper.pdf)]
+ * Seijoon Kim, Seongsik Park, Byunggook Na, Sungroh Yoon ***AAAI 2020***<br />
+**Spiking-YOLO:** "Spiking Neural Network for Energy-Efficient Object Detection"
+ [[paper](https://arxiv.org/pdf/1903.06530.pdf)]
+ * Biswadeep Chakraborty, Xueyuan She <br />
+"A Fully Spiking Hybrid Neural Network for Energy-Efficient Object Detection"
+ [[paper](https://arxiv.org/abs/2104.10719)]
 ## Papers
 For the Spiking Neural Network studies, it can be roughly divided into three categories
 * The Conversion Method (Converting a well-trained ann to snn)
 * SNN trained with BP
 * SNN trained with Biological Plasticity Rules (STDP, Hebbian,etc)
 ### Conversion Based Methods
+* Weihao Tan, Devdhar Patel, Robert Kozma ***AAAI 2021***<br />
+"Strategy and Benchmark for Converting Deep Q-Networks to Event-Driven Spiking Neural Networks"
+ [[paper](https://arxiv.org/pdf/2009.14456.pdf)]
+* Zhanglu Yan, Jun Zhou, Weng-Fai Wong ***AAAI 2021***<br />
+"Near Lossless Transfer Learning for Spiking Neural Networks"
+ [[paper](https://www.comp.nus.edu.sg/~wongwf/papers/AAAI-2021.pdf)]
 * Bing Han, Gopalakrishnan Srinivasan, and Kaushik Roy ***CVPR 2020***<br />
 "RMP-SNN: Residual Membrane Potential Neuron for Enabling Deeper High-Accuracy and Low-Latency Spiking Neural Network"
 [[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Han_RMP-SNN_Residual_Membrane_Potential_Neuron_for_Enabling_Deeper_High-Accuracy_and_CVPR_2020_paper.html)]
@@ -38,9 +54,6 @@ For the Spiking Neural Network studies, it can be roughly divided into three cat
 "Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation".
  [[paper](https://arxiv.org/pdf/2005.01807.pdf)]
  [[code](https://github.com/nitin-rathi/hybrid-snn-conversion.git)]
- * Seijoon Kim, Seongsik Park, Byunggook Na, Sungroh Yoon ***AAAI 2020***<br />
-**Spiking-YOLO:** "Spiking Neural Network for Energy-Efficient Object Detection"
- [[paper](https://arxiv.org/pdf/1903.06530.pdf)]
  * Lei Zhang, Shengyuan Zhou, Tian Zhi, Zidong Du, Yunji Chen ***AAAI 2019***<br />
 **TDSNN** "DFrom Deep Neural Networks to Deep Spike Neural Networks with Temporal-Coding".
  [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3931)]
@@ -52,6 +65,27 @@ For the Spiking Neural Network studies, it can be roughly divided into three cat
  [[paper](https://ieeexplore.ieee.org/document/8489339)]
 
 ### SNN trained with BP
+* Shibo Zhou, Xiaohua LI, Ying Chen, Sanjeev T. Chandrasekaran, Arindam Sanyal ***AAAI 2021***<br />
+"Temporal-Coded Deep Spiking Neural Network with Easy Training and Robust Performance"
+ [[paper](https://arxiv.org/pdf/1909.10837.pdf)]
+  [[code](https://github.com/zbs881314/Temporal-Coded-Deep-SNN)]
+* Hao Wu, Yueyi Zhang, ... ***AAAI 2021***<br />
+"Training Spiking Neural Networks with Accumulated Spiking Flow"
+ [[paper](https://www.aaai.org/AAAI21Papers/AAAI-4138.WuHao.pdf)]
+* Hanle Zheng, Yujie Wu, Lei Deng, Yifan Hu, Guoqi Li ***AAAI 2021***<br />
+"Going Deeper With Directly-Trained Larger Spiking Neural Networks"
+ [[paper](https://arxiv.org/abs/2011.05280)]
+ * Wenrui Zhang, Peng Li ***NIPS 2020***<br />
+"Temporal Spike Sequence Learning via Backpropagation for Deep Spiking Neural Networks"
+ [[paper](https://arxiv.org/abs/2002.10085)]
+ [[code](https://github.com/stonezwr/TSSL-BP)]
+* Jinseok Kim, Kyungsu Kim, Jae-Joon Kim ***NIPS 2020***<br />
+"Unifying Activation- and Timing-based Learning Rules for Spiking Neural Networks"
+ [[paper](https://papers.nips.cc/paper/2020/file/e2e5096d574976e8f115a8f1e0ffb52b-Paper.pdf)]
+ [[code](https://github.com/KyungsuKim42/ANTLR)]
+ * Qianyi Li, Cengiz Pehlevan ***NIPS 2020***<br />
+"Minimax Dynamics of Optimally Balanced Spiking Networks of Excitatory and Inhibitory Neurons"
+ [[paper](https://arxiv.org/abs/2006.08115)]
 * Haowen Fang, Amar Shrestha, Ziyi Zhao, Qinru Qiu ***IJCAI 2020***<br />
 "Exploiting Neuron and Synapse Filter Dynamics in Spatial Temporal Learning of Deep Spiking Neural Network"
  [[paper](https://www.ijcai.org/Proceedings/2020/0388.pdf)]
@@ -261,6 +295,3 @@ Jointly Learning Network Connections and Link Weights in Spiking Neural Networks
  * 	Amirali Amirsoleimani, Majid Ahmadi, Arash Ahmadi ***IJCNN 2017***<br />
 "STDP-based unsupervised learning of memristive spiking neural network by Morris-Lecar model".
  [[paper](https://ieeexplore.ieee.org/document/7966284)]
-
-
-
